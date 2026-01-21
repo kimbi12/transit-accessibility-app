@@ -30,8 +30,11 @@ High-level architecture diagram & description (link or image in assets/diagrams)
 ## How to Run
 1. Clone the repo
 2. Install dependencies (per folder)
-3. Start frontend and backend servers
-4. See docs/ for detailed setup instructions
+    - `cd frontend && npm install`
+3. Setup Environment
+    - Create `frontend/.env` with: `EXPO_PUBLIC_API_URL=http://127.0.0.1:8000`
+4. Start frontend and backend servers
+5. See docs/ for detailed setup instructions
 
 ## Team
 - Kimbi Denis – GitHub Content Lead / Documentation  

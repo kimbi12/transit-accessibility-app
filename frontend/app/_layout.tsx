@@ -53,6 +53,14 @@ function RootLayoutNav() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+
+        {/* Wired Navigation Flow */}
+        <Stack.Screen name="route-results" options={{ title: 'Route Results' }} />
+        <Stack.Screen name="route-details" options={{ title: 'Route Details' }} />
+        <Stack.Screen name="trip-start" options={{ title: 'Start Trip' }} />
+        <Stack.Screen name="step-by-step" options={{ title: 'Directions' }} />
+        <Stack.Screen name="notifications" options={{ title: 'Notifications' }} />
+        <Stack.Screen name="station-accessibility" options={{ title: 'Station Info' }} />
       </Stack>
     </ThemeProvider>
   );
