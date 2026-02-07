@@ -9,3 +9,4 @@ from . import carbon_intensity
 from . import hazards
 from . import education
 from . import maps
+from . import assistant
